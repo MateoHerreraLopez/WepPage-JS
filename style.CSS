@@ -224,7 +224,15 @@ section a:hover {
     .nav-menu-search {
         margin-right: 30px;
     }
+}
 
+@media (max-width: 450px) {
+    
+    .news-cards {
+        grid-template-columns: 1fr;
+    }
 
-
+    .footer-links{
+        grid-template-columns: 1fr 1fr;
+    }
 }
